@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish || Chef</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100;1,300&display=swap');
+
+        body{
+            font-family: 'Texturina', serif;
+        }
+        h1 {
+            text-align: center;
+
+        }
+
+        .textarea {
+            text-align: center;
+
+        }
+
+        textarea {
+            height: 20vh;
+            width: 40%;
+            margin: 1rem;
+            padding: 1rem;
+            font-family: 'Texturina', serif;
+        }
+
+        button {
+            padding: 0.5rem;
+            border: none;
+            margin-bottom: 1rem;
+            font-family: 'Texturina', serif;
+            font-weight: bold;
+            background-color: red;
+
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 20vh;
+            width: 40%;
+            margin: auto;
+            padding: 1rem;
+            font-family: 'Texturina', serif;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Swedish Chef Speak</h1>
+    <div class="textarea">
+        <textarea id="txt-input"></textarea>
+    </div>
+    <div class="textarea">
+        <button id="btn-translate">Translate to Chef Speak</button>
+    </div>
+    <div id="output"></div>
+
+    <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
